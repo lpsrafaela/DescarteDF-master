@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context="com.example.arthurwallace.gps_maps.MapsActivity" />
+
+
+
+
+    <ImageView
+        android:id="@+id/fundo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/retangulo"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+
+        />
+
+    <TextView
+        android:id="@+id/titulo_lugar"
+        android:layout_width="match_parent"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fundo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="60dp" />
+
+    <TextView
+        android:id="@+id/informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconevoltar"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <!-- <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/fundo"
+        android:layout_alignStart="@+id/fundo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/fundo"
+        android:background="@drawable/icone"
+        android:layout_marginStart="20dp"
+        android:visibility="invisible">
+
+    </ImageView>
+-->
+
+    <ImageButton
+        android:id="@+id/iconevoltar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/fundo"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="-7dp"
+        android:layout_alignTop="@+id/titulo_lugar"
+        android:background="@drawable/iconevoltar"
+        android:visibility="invisible"
+        android:layout_alignLeft="@+id/fundo"
+        android:layout_marginStart="4dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Descarte DF</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="app_name2">Intro Slider</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">ENTENDI</string>
+
+    <string name="slide_1_title">Pontos de Coleta</string>
+    <string name="slide_1_desc">Toque no ponto desejado para ver as informações</string>
+
+    <string name="slide_2_title">Contato</string>
+    <string name="slide_2_desc">verifique as informações para entrar em contato</string>
+
+    <string name="slide_3_title">Coleta</string>
+    <string name="slide_3_desc">Agende um hórário e local para recolhimento do seu material</string>
+
+    <string name="play_again_desc">Para ver novamente o slide, vá en settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Mostrar Novamente</string>
+</resources>
